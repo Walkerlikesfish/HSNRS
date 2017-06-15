@@ -1,0 +1,16 @@
+test_iter: 35
+test_interval: 2297
+base_lr: 1e-04
+display: 230
+max_iter: 172300
+
+lr_policy: "fixed"
+momentum: 0.9
+weight_decay: 0.0001
+
+snapshot: 2297
+snapshot_prefix: "/home/yuliu/Documents/0RSNet/net/VH_hsnet_ns/model/snap_shot_ns_"
+
+solver_mode: GPU
+net: "/home/yuliu/Documents/0RSNet/net/VH_hsnet_ns/RSnet_d128_nbranch.prototxt"
+solver_type: ADAM

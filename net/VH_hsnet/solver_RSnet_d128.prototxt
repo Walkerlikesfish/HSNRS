@@ -1,0 +1,13 @@
+test_iter: 35
+test_interval: 3446
+base_lr: 2e-06
+display: 430
+max_iter: 172300
+lr_policy: "fixed"
+momentum: 0.99
+weight_decay: 2e-06
+snapshot: 3446
+snapshot_prefix: "../net/rsnet_d128/model/snapshot_RSnet_d128_"
+solver_mode: GPU
+net: "/home/yuliu/Documents/0RSNet/net/rsnet_d128/RSnet_d128.prototxt"
+solver_type: ADAM
