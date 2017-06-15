@@ -1,0 +1,13 @@
+test_iter: 35
+test_interval: 3446
+base_lr: 5e-06
+display: 430
+max_iter: 172300
+lr_policy: "fixed"
+momentum: 0.99
+weight_decay: 1e-05
+snapshot: 3446
+snapshot_prefix: "../net/vgg_deconv/snapshot_cvpr_"
+solver_mode: GPU
+net: "/home/yuliu/Documents/0RSNet/net/vgg_deconv/train_val_cvpr_dsm.prototxt"
+solver_type: ADAM

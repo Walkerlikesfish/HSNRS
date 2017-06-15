@@ -1,0 +1,13 @@
+test_iter: 384
+test_interval: 9216
+base_lr: 5e-07
+display: 921
+max_iter: 921600
+lr_policy: "fixed"
+momentum: 0.99
+weight_decay: 1e-05
+snapshot: 9216
+snapshot_prefix: "../net/PD_hsnet/model/snapshot_PD_fcn_"
+solver_mode: GPU
+net: "/home/yuliu/Documents/0RSNet/net/PD_fcn/fcn_pd.prototxt"
+solver_type: ADAM

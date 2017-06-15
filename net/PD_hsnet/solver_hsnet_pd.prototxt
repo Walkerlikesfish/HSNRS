@@ -1,0 +1,13 @@
+test_iter: 493
+test_interval: 11849
+base_lr: 1e-08
+display: 1185
+max_iter: 1184900
+lr_policy: "fixed"
+momentum: 0.9
+weight_decay: 1e-06
+snapshot: 11849
+snapshot_prefix: "../net/PD_hsnet/model/snapshot_PD_hsnet_fine_"
+solver_mode: GPU
+net: "/home/yuliu/Documents/0RSNet/net/PD_hsnet/hsnet_d128_PD.prototxt"
+solver_type: ADAM
