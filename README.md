@@ -1,6 +1,6 @@
 # HSN for Remote sensing
 
-**This repository contains project codes of following paper: "Hourglass-Shape Network Based Semantic Segmentation for High Resolution Aerial Imagery"**
+**This repository contains project codes of following paper: "Hourglass-Shape Network Based Semantic Segmentation for High Resolution Aerial Imagery"**  (http://www.mdpi.com/2072-4292/9/6/522)
 
 **As the project is still in progress, the code for preprocessing, WBP post processing, and evaluation is currently under code review, and will be published progressively in the near future**
 
@@ -51,14 +51,14 @@ Please cite the following paper if you find the project helpful to your research
 This code is shared under a Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) Creative Commons licensing. 
 
 You are free to:
-Share — copy and redistribute the material in any medium or format
-Adapt — remix, transform, and build upon the material
+- Share — copy and redistribute the material in any medium or format
+- Adapt — remix, transform, and build upon the material
 The licensor cannot revoke these freedoms as long as you follow the license terms.
 
 Under the following terms:
-Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
-NonCommercial — You may not use the material for commercial purposes.
-No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+- Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+- NonCommercial — You may not use the material for commercial purposes.
+- No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 
 ## Acknowlegement
 The research has been supported by Fonds Wetenschappelijk Onderzoek (project no.
