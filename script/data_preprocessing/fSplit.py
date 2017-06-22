@@ -14,7 +14,8 @@ from PIL import Image
 import os
 import ConfigParser
 Config = ConfigParser.ConfigParser()
-Config.read("./setting_data.ini")
+# Configure here to set the data config files
+Config.read("../setting_data_train.ini")
 
 training_set = [1, 3, 5, 7, 13, 17, 21, 23, 26, 32, 37, 11, 15, 28, 30, 34] # VH training index
 test_set = [11, 15, 28, 30, 34] # VH test index
@@ -410,8 +411,9 @@ def x_write_to_index(str_pre, fname_ind1):
 def xh_test():
     # define the roots
     patch_size = [256, 256]
-    overlap = [0.75, 0.75]
-    xf_VH_test_split(patch_size, overlap)
+    overlap = [0, 0]
+    # xf_VH_test_split(patch_size, overlap)
+    xf_VH_train_split(patch_size, overlap)
 
 
 if __name__ == '__main__':
