@@ -52,7 +52,22 @@ Please contact the ISPRS for any question concerning the dataset.
 The whole project can be divided into three parts: 1) Data-preprocessing 2) Deep network traninig 3) Weighted Belief Propagation post processing
 
 ### Data-preprocessing
-Use the ```fSplit.py``` to split the provided remote sensing image tile into small patches. (**you have to set the ```setting_data.ini``` first, specifying the folders and path of the caffe and raw images**).
+ - Use the ```fSplit.py``` to split the provided remote sensing image tile into small patches. (**you have to set the ```setting_data.ini``` first, specifying the folders and path of the caffe and raw images**).
+ - ```fTagPost.py``` can be used to adapt the label map from color labels to class indexes (Specify and check the color mapping first)
+ - ```calc_mean.py``` and ```convert_protomean.py``` are helpers to calculate the mean value of the image dataset.
+ 
+### Network Training
+ - ```run_gen_proto.py``` is used to generate the caffe prototxt (the network scheme), ```protoGen.py``` is where we specify the details of the network. (**you have to set the ```setting_data.ini``` first**).
+ - ```run_check_net_layout.py``` is the helper script to check the layout of the net, can output network structure as image.
+ - ```run_train_net.py``` is the helper script to train the network in Caffe. 
+ - ```run_infer.py``` is used to run the test inference throught specified dataset.
+
+### Post processing
+ - Call ```infer_XBP.py``` and set the parameters in the script to run the weighed belief propagation. Please modify the path of the input/output image folders
+ 
+### Visualize
+ - Since the input image is inferenced in patches, ```assemble_patch.py``` is used to perform the **overlap inference**
+ - Other scripts are used to color the label map and generate results for visual evaluation.
 
 ## License and Citation
 
