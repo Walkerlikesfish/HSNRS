@@ -29,9 +29,27 @@ https://github.com/BVLC/caffe/
 
 ## HSN net Specification
 
-## HSN example
+Folder net contains all the net prototxt, solver files and modules.
 
 ## Dataset
+
+To acquire the mentioned Vaihingen and Potsdam dataset, pleaes refers to ISPRS from the following link:
+
+Vaihingen: http://www2.isprs.org/commissions/comm3/wg4/2d-sem-label-vaihingen.html
+
+Potsdam: http://www2.isprs.org/commissions/comm3/wg4/2d-sem-label-potsdam.html
+
+The normalized DSM data can be acquired from M. Gerke from following link:
+https://www.itc.nl/library/papers_2015/general/gerke_use.pdf
+
+The nDSM data of Potsdam can be found in following link:
+http://eostore.itc.utwente.nl:5000/fbsharing/z8O2Xl6f
+
+Please contact the ISPRS for any question concerning the dataset.
+
+## How to run
+
+
 
 ## License and Citation
 
