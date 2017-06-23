@@ -49,7 +49,10 @@ Please contact the ISPRS for any question concerning the dataset.
 
 ## How to run
 
+The whole project can be divided into three parts: 1) Data-preprocessing 2) Deep network traninig 3) Weighted Belief Propagation post processing
 
+### Data-preprocessing
+Use the ```fSplit.py``` to split the provided remote sensing image tile into small patches. (**you have to set the ```setting_data.ini``` first, specifying the folders and path of the caffe and raw images **).
 
 ## License and Citation
 
